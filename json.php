@@ -3,6 +3,7 @@ header("Access-Control-Allow-Origin: *");
 header('Content-Type: application/json');
 $perfumes = array(
     array(
+        "Id" => "1",
         "brand" => "Penshoppe",
         "name" => "Hustle Night Eau de Toilette",
         "color" => "Black",
@@ -11,6 +12,7 @@ $perfumes = array(
         "ingredient" => "Sodium Tallowate Sodium Cocoate Fragrance Triclocarbon."
     ),
     array(
+        "Id" => "2",
         "brand" => "Penshoppe",
         "name" => "Lovestory Eau De Toilette",
         "color" => "Gray",
@@ -19,6 +21,7 @@ $perfumes = array(
         "ingredient" => "Black pepper Cardamom Mint Vanilla linger Lavender."
     ),
     array(
+        "Id" => "3",
         "brand" => "Versace",
         "name" => "Versace eros",
         "color" => "Black",
@@ -27,6 +30,7 @@ $perfumes = array(
         "ingredient" => "Alcohol Denat. (Sd Alcohol 39 C) Fragrance Coumarine Linalool."
     ),
     array(
+        "Id" => "4",
         "brand" => "Dior",
         "name" => "SAUVAGE EAU DE TOILETTE",
         "color" => "Blue",
@@ -35,6 +39,7 @@ $perfumes = array(
         "ingredient" => "Alcohol Aqua(water) Fragrance Imonene Linolool."
     ),
     array(
+        "Id" => "5",
         "brand" => "Penshoppe",
         "name" => "Pumped Blue Eau De Toilette",
         "color" => "Blue",
