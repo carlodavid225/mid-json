@@ -18,7 +18,6 @@
         <table class="table table-striped table-bordered mt-4">
             <thead>
                 <tr>
-                    <th>Barcode_id</th>
                     <th>Brand</th>
                     <th>Name</th>
                     <th>Size</th>
@@ -32,7 +31,7 @@
         </table>
     </div>
     <script>
-        const loadButton = document.getElementById("button");
+        const loadButton = document.getElementByBrand("button");
         loadButton.addEventListener("click", function () {
             const xmlhttp = new XMLHttpRequest();
             xmlhttp.open("GET", "json.php");
@@ -43,7 +42,6 @@
                 perfumes.forEach(perfume => {
                     const row = document.createElement('tr');
                     row.innerHTML = `
-              <td>${perfume.barcode_id}</td>
               <td>${perfume.brand}</td>
               <td>${perfume.name}</td>
               <td>${perfume.size}</td>
